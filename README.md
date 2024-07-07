@@ -1,54 +1,20 @@
-<div class="container">
-        <header>
-            <h1>InfernBot - Django Telegram Bot Integration</h1>
-        </header>
+# Django Blog
 
-<main>
-            <section>
-                <h2>Overview</h2>
-                <p>
-                    InfernBot is a Django project that seamlessly combines the power of Django, Django Rest Framework, and
-                    PyTelegramBotApi to create a versatile Telegram bot capable of handling notes and more.
-                </p>
-            </section>
+Это проект блога, построенного с использованием Django.
 
-<section>
-                <h2>Features</h2>
-                <ul>
-                    <li><strong>Note Creation:</strong> InfernBot allows users to create and manage notes through a Telegram
-                        interface.</li>
-                    <li><strong>Educational Example:</strong> Originally developed as an educational resource, this project
-                        serves as a great example of integrating Django and Telegram Bot functionalities.</li>
-                </ul>
-            </section>
+## Функциональность
 
-<section class="installation">
-    <h2>Getting Started</h2>
-    <pre>
-<code>
-# Install dependencies
-pip install -r requirements.txt
+- Создание и редактирование постов
+- Комментирование постов
+- Регистрация и авторизация пользователей
 
-# Apply migrations
-python manage.py makemigrations
-python manage.py migrate
+## Установка
 
-# Run the Django admin site
-python manage.py runserver
+1. Клонируйте репозиторий
+2. Установите зависимости: `pip install -r requirements.txt`
+3. Примените миграции: `python manage.py migrate`
+4. Запустите сервер: `python manage.py runserver`
 
-# Start the Telegram bot
-python manage.py runtgbot
-</code>
-                </pre>
-            </section>
-        </main>
+## Лицензия
 
-<footer>
-            <a href="https://instagram.com/5ekastan">5ekastan</a>
-            <p>&copy; 2023 InfernBot. All rights reserved.</p>
-        </footer>
-    </div>
-
-</body>
-
-</html>
+Этот проект лицензирован под MIT License.
