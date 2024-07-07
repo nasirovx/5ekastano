@@ -1,6 +1,21 @@
-<div class="container">
-        <header>
-            <h1>InfernBot - Django Telegram Bot Integration</h1>
-        </header>
+# Online Store
 
-<main>
+Это проект интернет-магазина, построенного с использованием Django и Django REST Framework.
+
+## Функциональность
+
+- Управление пользователями
+- Управление товарами
+- Управление заказами
+- API для интеграции с внешними сервисами
+
+## Установка
+
+1. Клонируйте репозиторий
+2. Установите зависимости: `pip install -r requirements.txt`
+3. Примените миграции: `python manage.py migrate`
+4. Запустите сервер: `python manage.py runserver`
+
+## Лицензия
+
+Этот проект лицензирован под MIT License.
