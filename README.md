@@ -37,7 +37,7 @@ python manage.py migrate
 python manage.py runserver
 
 # Start the Telegram bot
-python manage.py runtgbo
+python manage.py runtgbot
 </code>
                 </pre>
             </section>
